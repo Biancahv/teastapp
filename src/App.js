@@ -2,21 +2,16 @@ import logo from "./logo.svg";
 import "./App.css";
 import "./styles.css";
 import { Navigation } from "./components/Navigation";
+import User from "./components/user";
 import UserClass from "./components/UserClass";
-import User from "./components/use";
 
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <UserClass nume="XAA-12" varsta={20} />
-      <User nume="Vasile" varsta={20} />
-      <User
-        nume="Ana"
-        varsta={23}
-        sex="feminin"
-        address={{ strada: "principala", oras: "Timisoara" }}
-      />
+      <User name={"Bianca"} age={26} gender={"feminin"} address={"Timisoara"} />
+      <User name={"Ion"} age={20} gender={"masculin"} address={"Bucuresti"} />
+      <User name={"Ana"} age={30} gender={"feminin"} address="Cluj" />
     </div>
   );
 }
