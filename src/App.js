@@ -14,7 +14,6 @@ function App() {
       <User name={"Bianca"} age={26} gender={"feminin"} address={"Timisoara"} />
       <User name={"Ion"} age={20} gender={"masculin"} address={"Bucuresti"} />
       <User name={"Ana"} age={30} gender={"feminin"} address="Cluj" />
-      <UserClass />
     </div>
   );
 }
